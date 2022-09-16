@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Eternity-Plus-Tiramisu/manifest -b 13
+repo init -u https://github.com/EternityOS-Plus-Tiramisu/manifest -b 13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -25,3 +25,10 @@ $ lunch aosp_$device-userdebug
 $ mka bacon -jX
 ```
 
+## OFFICIAL MAINTAINERSHIP ##
+```
+If you want to apply for official Maintainership,
+Fill the form available at Official Community group
+of EternityOS And Kindly wait for Team to Review 
+your Form.
+```
