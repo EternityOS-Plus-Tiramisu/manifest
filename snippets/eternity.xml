@@ -45,5 +45,6 @@
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="eternity" />
+  <project path="vendor/support" name="vendor_support" remote="eternity" />
 
 </manifest> 
