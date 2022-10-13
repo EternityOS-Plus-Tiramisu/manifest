@@ -5,11 +5,14 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
+  <remote name="superior-gitlab"
+          fetch="https://gitlab.com/superioros" />
+
   <remote name="github"
           fetch="https://github.com/" />
 
-  <remote name="superior-gitlab"
-          fetch="https://gitlab.com/superioros" />
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
 
   <default revision="refs/tags/android-13.0.0_r8"
            remote="aosp"
