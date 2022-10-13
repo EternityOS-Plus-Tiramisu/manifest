@@ -43,9 +43,12 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="eternity" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="eternity" />
   <project path="packages/apps/EternitySettings" name="packages_apps_EternitySettings" remote="eternity" />
-
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="eternity" />
+ 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="eternity" />
   <project path="vendor/support" name="vendor_support" remote="eternity" />
-
+  <project path="vendor/gms" name="android_vendor_google_gms" remote="superior-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="superior-gitlab" clone-depth="1" />
+ 
 </manifest> 
