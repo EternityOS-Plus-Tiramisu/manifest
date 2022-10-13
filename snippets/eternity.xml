@@ -3,7 +3,7 @@
 
   <remote name="eternity"
           fetch="https://github.com/EternityOS-Plus-Tiramisu"
-          revision="13" />
+          revision="13-new" />
 
   <!-- External repos -->
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="eternity" />
