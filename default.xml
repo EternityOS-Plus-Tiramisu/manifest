@@ -1178,4 +1178,6 @@
     <!-- Some Lineage repos -->
     <include name="snippets/los.xml" />
 
+    <!-- EternityOS repos -->
+    <include name="snippets/eternity.xml" />
 </manifest>

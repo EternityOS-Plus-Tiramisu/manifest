@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="eternity"
+          fetch="https://github.com/EternityOS-Plus-Tiramisu"
+          revision="13" />
+
+  <!-- External repos -->
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="eternity" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="eternity" />
+  <project path="frameworks/native" name="frameworks_native" remote="eternity" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="eternity"> 
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project> 
+  <project path="build/soong" name="build_soong" remote="eternity" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- System Repos -->
+  <project path="system/sepolicy" name="system_sepolicy" remote="eternity" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="eternity" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="eternity" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="eternity" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="eternity" />
+
+</manifest>

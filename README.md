@@ -1,8 +1,4 @@
----
-<p align="center">
-<img src="https://user-images.githubusercontent.com/66232233/185937884-8363abfa-570a-482a-b911-26ded6d7e01c.jpg" />
-</p>
-
+-----
 # Credits:
 
 - [**AOSP**](https://android.googlesource.com)
@@ -22,7 +18,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 # Sync Source:-
 
 ```bash
-    repo init -u https://github.com/SuperiorOS/manifest.git -b thirteen
+    repo init -u https://github.com/EternityOS-Plus-Tiramisu/manifest.git -b 13
 ```
 
 ```bash
@@ -33,27 +29,13 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 ```bash
   . build/envsetup.sh
-  lunch superior_<devicecodename>-userdebug
-  m bacon -j$(nproc --all)
+  lunch aosp_<devicecodename>-buidtype
+  mka bacon
 ```
 
 ---
 
 # Some Links:-
 
-- [**Telegram Public Chat**](https://t.me/superioros)
-- [**Telegram Channel**](https://t.me/superior_os)
-- [**Crowdin**](https://crowdin.com/project/superior-os)
-
----
-
-# Download Stats
-
-[![Download Superior](https://img.shields.io/sourceforge/dd/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
-
-[![Download Superior](https://img.shields.io/sourceforge/dw/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
-
-[![Download Superior](https://img.shields.io/sourceforge/dm/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
-
-[![Download Superior](https://img.shields.io/sourceforge/dt/superioros.svg)](https://sourceforge.net/projects/superioros/files/latest/download)
-
+- [**Telegram Public Chat**](https://t.me/eternity_os)
+- [**Telegram Channel**](https://t.me/eternity_updates)
