@@ -9,7 +9,7 @@
           fetch="https://github.com/" />
 
   <remote name="superior-gitlab"
-          fetch="https://gitlab.com" />
+          fetch="https://gitlab.com/superioros" />
 
   <default revision="refs/tags/android-13.0.0_r8"
            remote="aosp"
